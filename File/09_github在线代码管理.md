@@ -30,7 +30,7 @@ $ git push -u origin dev        # 推送本地 dev  去 origin
 如果在本地再进行修改，比如在 `1.py` 文件中加上 `# happy github`，然后 `commit` 并推上去：
 
 ```
-$ cd ..\Code
+$ cd Code
 $ echo "# happy github" > 1.py
 
 $ git commit -am "change 5"
